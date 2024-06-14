@@ -51,7 +51,7 @@ const UserName = styled.span`
 
 const LogoutButton = styled.button`
     padding: 8px 12px;
-    background-color: #ff4d4d;
+    background: linear-gradient(70deg, rgb(97, 63, 137), rgb(127, 131, 186) 45%, rgb(184, 155, 203));
     color: white;
     border: none;
     border-radius: 4px;

@@ -83,7 +83,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -124,5 +123,18 @@ table {
 }
 
 body {
-  background-color: #2ec4b6;
+  background: linear-gradient(70deg, rgb(97, 63, 137), rgb(104, 107, 150) 50%, rgb(184, 155, 203));
+  background-size: cover;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'PyeongChangPeace';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  font-family: 'PyeongChangPeace';
 }

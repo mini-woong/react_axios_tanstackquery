@@ -11,12 +11,13 @@ const Container = styled.div`
     border-radius: 8px;
 `
 const InputGroup = styled.div`
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
     label {
         display: block;
         margin-bottom: 10px;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 700;
     }
 
     input {
@@ -29,12 +30,12 @@ const InputGroup = styled.div`
 const Button = styled.button`
     width: 100%;
     padding: 10px;
-    background-color: blue;
+    background: linear-gradient(70deg, rgb(97, 63, 137), rgb(127, 131, 186) 45%, rgb(184, 155, 203));
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
     &:disabled {
         background-color: black;
