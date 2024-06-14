@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const JSON_SERVER_HOST = "http://localhost:5000/expenses"
+const JSON_SERVER_HOST = "https://outrageous-rhinestone-mushroom.glitch.me/expenses"
 
 export const getExpenses = async () => {
     try {
